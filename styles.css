@@ -1,0 +1,186 @@
+.pagination>li>a, .pagination>li>span {
+    border-radius: 50% !important;margin: 0 5px;
+}
+body {
+    background: url("bg.jpeg");
+    padding: 0;
+    margin: 0;
+}
+.welcome{
+    text-align: center;
+    font-size: 80px;
+    color: whitesmoke;
+    font-family: Dyuthi ;
+    user-select: none;
+}
+.contacts{
+    display: flex;
+    width: 600px;
+    margin: 0px auto;
+    height: 150px;
+    position: relative;
+}
+.img-me{
+    box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+    position: absolute;
+    top: -30px;
+    width: 150px;
+    z-index: 2;
+}
+.skills{
+    text-align: center;
+    font-size: 80px;
+    color: whitesmoke;
+    font-family: Dyuthi ;
+}
+img:hover {
+    cursor: pointer;
+    opacity: 0.5;
+}
+img{
+    user-select: none;
+    transition: all 0.6s;
+}
+
+.descrStyle{
+    font-size: 21px;
+    font-family: "AR PL UKai CN";
+    font-style: italic;
+    text-align: center;
+    color: whitesmoke;
+    width: 600px;
+    height: 300px;
+    position: relative;
+    margin: 0px auto;
+    border-radius: 10px;
+    /*background-color: rgba(245,245,245,0.6);*/
+    border-radius: 10px;
+    padding-top: 4px;
+}
+.descrStyle p {
+    position: absolute;
+    margin: 0px auto;
+    width: 500px;
+    height: 300px;
+    user-select: none;
+    left: 0;
+    right: 0;
+}
+
+/* CSS */
+.btn-circle {
+    width: 180px;
+    height: 180px;
+    border-radius: 90px;
+    text-align: center;
+    padding-left: 0;
+    padding-right: 0;
+    font-size: 28px;
+    font-family: AnjaliOldLipi;
+    white-space: normal;
+}
+
+.btn-circle2 {
+    width: 250px;
+    height: 80px;
+    border-radius: 60px;
+    text-align: center;
+    padding-left: 0;
+    padding-right: 0;
+    font-family: "Noto Sans CJK JP Black";
+    white-space: normal;
+    font-size: 48px;
+    margin-bottom: 10px;
+    margin-right: 20px;
+}
+.pagesButtons{
+    display: flex;
+    position: relative;
+    width: 60vw;
+    margin: 0px auto;
+    justify-content: space-around;
+}
+.btn-names{
+    position: relative;
+    width: 60vw;
+    display: flex;
+    color: white;
+    justify-content: space-around;
+    margin: 0px auto;
+    top: 150px;
+    user-select: none;
+    z-index: 2;
+    text-align: center;
+    font-weight: bold;
+    font-size: 22px;
+    pointer-events: none;
+}
+.btn-names i{
+    font-size: 38px;
+}
+.btn-name{
+    width: 95px;
+}
+.mob , .git a, .mail a{
+    cursor: pointer;
+    transition: all 0.3s;
+    color: whitesmoke;
+    font-size: 18px;
+    text-decoration: none;
+}
+.mob:hover , .git a:hover, .mail a:hover{
+    font-size: 24px;
+}
+.language{
+    color: white;
+    position: absolute;
+    left: 20vw;
+    top: 5vh;
+    font-family: Dyuthi ;
+    user-select: none;
+    font-size: 56px;
+    user-select: none;
+}
+.langs{
+    position: relative;
+    /*background-color: black;*/
+    width: 40vw;
+    margin: 13vh auto;
+    display: block;
+    color: whitesmoke;
+    font-size: 28px;
+    user-select: none;
+}
+.lang{
+    display: flex;
+    margin: 0px auto;
+    position: relative;
+    width: 35vw;
+}
+.prog{
+    width: 30vw;
+    background-color: darkgreen;
+    border-radius: 10px;
+    margin-top: 17px;
+    height: 10px;
+    margin-left: 12px;
+}
+.proc{
+    margin-left: 12px;
+}
+.last-prog{
+    width: 10vw;
+}
+.last-proc{
+    margin-left: 310px;
+}
+.interest{
+    position: relative;
+    /*background-color: black;*/
+    width: 40vw;
+    margin: 13vh auto;
+    display: block;
+    color: whitesmoke;
+    font-size: 28px;
+    user-select: none;
+}
